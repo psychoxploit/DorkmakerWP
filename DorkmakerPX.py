@@ -11,7 +11,7 @@ print ('''
  ░███         ░░░░███ ░███ ░███ ░███  ███ ░███ ░███ ░███ ░███  ███ ░░███  ░███ ░███ ░███ ░███ ░███ ░███   ░███ ███
  █████        ██████  ░░███████ ░░██████  ████ █████░░██████  █████ █████ ░███████  █████░░██████  █████  ░░█████ 
 ░░░░░        ░░░░░░    ░░░░░███  ░░░░░░  ░░░░ ░░░░░  ░░░░░░  ░░░░░ ░░░░░  ░███░░░  ░░░░░  ░░░░░░  ░░░░░    ░░░░░  
-                       ███ ░███   Code by Shirgil & GHz                   ░███                                    
+                       ███ ░███   Code by Shirgil & GHz7                  ░███                                    
                       ░░█████ [github: https://github.com/psychoxploit]  █████                                   
                        ░░░░░░                                            ░░░░░   
 
@@ -23,7 +23,7 @@ def memek(kontol):
         result = open('wd.txt', 'r').read().splitlines()
         for res in result:
             res = res.strip()
-            results = res+' \t'+keyword
+            results = keyword+' \t'+res
             print(results)
             with open('Dork.txt','a+') as xn:
                 xn.write(results+'\n')
